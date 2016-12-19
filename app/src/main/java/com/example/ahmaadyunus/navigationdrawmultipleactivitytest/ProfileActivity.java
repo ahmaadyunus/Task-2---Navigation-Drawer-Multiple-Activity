@@ -14,6 +14,5 @@ public class ProfileActivity extends MainActivity {
         super.onCreate(savedInstanceState);
              View contentView = getLayoutInflater().inflate(R.layout.activity_profile,null);
              drawerLayout.addView(contentView,1);
-             toolbar.setTitle(leftSliderData[position]);
          }
 }
